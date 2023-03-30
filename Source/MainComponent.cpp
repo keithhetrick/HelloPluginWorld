@@ -17,8 +17,8 @@ void MainComponent::paint (juce::Graphics& g)
     g.fillAll (getLookAndFeel().findColour (juce::ResizableWindow::backgroundColourId));
 
     g.setFont (juce::Font (16.0f));
-    g.setColour (juce::Colours::white);
-    g.drawText ("Hello from the world of audio plugin Development!", getLocalBounds(), juce::Justification::centred, true);
+    g.setColour (juce::Colours::red);
+    g.drawText ("Hello from the world of C++::Audio Plugin Development!", getLocalBounds(), juce::Justification::centred, true);
 }
 
 void MainComponent::resized()
